@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>unlearning.health | Relearn Health for Busy Professionals 30 to 50</title>
+<meta name="description" content="Health was never a number on a scale. It is in your blood markers, your stamina, your energy at 4pm. Science led coaching for busy professionals 30 to 50. Take the 60 second test or book a free health audit.">
+<meta name="keywords" content="health coaching for professionals, online fitness coach India, fat loss for busy professionals, metabolic health, blood markers, fatigue energy coaching">
+<meta property="og:title" content="unlearning.health | Relearn health">
+<meta property="og:description" content="Health was never a number on a scale. We coach you to fix what actually matters and unlearn everything the diet industry sold you.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://unlearning.health">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://unlearning.health">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"HealthAndBeautyBusiness",
+  "name":"unlearning.health",
+  "description":"Science led health and body transformation coaching for busy professionals aged 30 to 50.",
+  "url":"https://unlearning.health",
+  "email":"team@unlearning.health",
+  "areaServed":"IN",
+  "founder":{"@type":"Person","name":"Arpit Kushwaha"},
+  "makesOffer":{"@type":"Offer","name":"1:1 Health Transformation Coaching","category":"Health Coaching"}
+}
+</script>
+<style>
+  :root{
+    --ink:#141414;--paper:#F4F1EC;--slate:#6B6B6B;--clay:#C8513B;
+    --line:rgba(20,20,20,0.12);
+    --serif:'Fraunces',Georgia,serif;--sans:'Inter',system-ui,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-weight:400;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 32px}
+  a{color:inherit;text-decoration:none}
+
+  /* ---------- NAV ---------- */
+  nav{position:sticky;top:0;z-index:100;background:rgba(244,241,236,0.9);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s,padding .3s}
+  nav.scrolled{border-bottom-color:var(--line)}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:84px;transition:height .3s;max-width:1200px;margin:0 auto;padding:0 32px}
+  nav.scrolled .nav-inner{height:64px}
+  .brand{display:flex;align-items:center;gap:12px;font-family:var(--serif);font-size:24px;font-weight:500;letter-spacing:-.5px}
+  .brand .mark{width:38px;height:38px;border-radius:50%;background:var(--clay);color:var(--paper);display:flex;align-items:center;justify-content:center;font-family:var(--sans);font-weight:600;font-size:16px;position:relative;flex-shrink:0}
+  .brand .mark .s{position:absolute;left:9px;top:51%;width:20px;height:2px;background:var(--paper);border-radius:2px}
+  .brand .h{color:var(--slate);font-weight:400}
+  .nav-links{display:flex;gap:30px;align-items:center;font-size:15px;color:var(--ink)}
+  .nav-links a{transition:color .2s;position:relative}
+  .nav-links a:hover{color:var(--clay)}
+  .nav-pill{background:var(--ink);color:var(--paper)!important;padding:13px 26px;border-radius:100px;font-weight:500;font-size:15px;transition:transform .2s,background .2s}
+  .nav-pill:hover{background:#000;transform:translateY(-1px)}
+  .nav-toggle{display:none;background:none;border:none;font-size:24px;cursor:pointer;color:var(--ink)}
+  @media(max-width:1080px){.nav-links{display:none}.nav-toggle{display:block}}
+
+  /* ---------- HERO ---------- */
+  header{padding:60px 0 0}
+  .hero{display:grid;grid-template-columns:1.05fr 0.95fr;gap:56px;align-items:center}
+  .hero-strike{font-family:var(--serif);font-weight:400;font-size:clamp(44px,6.4vw,92px);line-height:0.98;letter-spacing:-2px;color:var(--slate);position:relative;display:inline-block}
+  .hero-strike::after{content:"";position:absolute;left:-6px;right:-6px;top:50%;height:5px;background:var(--clay);border-radius:4px;transform:scaleX(0);transform-origin:left;animation:strike 0.9s .5s cubic-bezier(.6,0,.2,1) forwards}
+  @keyframes strike{to{transform:scaleX(1)}}
+  .hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(44px,6.4vw,92px);line-height:0.98;letter-spacing:-2px;margin:4px 0 28px}
+  .hero h1 em{font-style:italic;color:var(--clay)}
+  .hero-sub{font-size:clamp(17px,1.5vw,20px);color:#2a2a2a;max-width:48ch;line-height:1.55;margin-bottom:36px}
+  .hero-sub strong{font-weight:600;color:var(--ink)}
+  .hero-cta{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-bottom:48px}
+  .btn-dark{background:var(--ink);color:var(--paper);padding:17px 30px;border-radius:100px;font-weight:500;font-size:16px;display:inline-flex;align-items:center;gap:10px;transition:transform .2s,background .2s}
+  .btn-dark:hover{background:#000;transform:translateY(-2px)}
+  .btn-dark .arr{transition:transform .2s}.btn-dark:hover .arr{transform:translateX(4px)}
+  .btn-outline{background:transparent;color:var(--ink);padding:17px 30px;border:1.5px solid var(--ink);border-radius:100px;font-weight:500;font-size:16px;cursor:pointer;transition:background .2s,color .2s}
+  .btn-outline:hover{background:var(--ink);color:var(--paper)}
+
+  .hero-stats{display:flex;gap:48px;border-top:1px solid var(--line);padding-top:30px}
+  .hstat .n{font-family:var(--serif);font-size:clamp(40px,4vw,58px);font-weight:500;letter-spacing:-1.5px;line-height:1;display:flex;align-items:flex-start}
+  .hstat .n .plus{color:var(--clay);font-size:0.5em;margin-top:.3em}
+  .hstat .l{font-size:11.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--slate);margin-top:10px}
+
+  .hero-photo{position:relative;border-radius:18px;overflow:hidden;aspect-ratio:4/4.4;box-shadow:0 30px 60px -20px rgba(20,20,20,0.3)}
+  .hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center}
+  .hero-photo .cap{position:absolute;left:0;right:0;bottom:0;padding:40px 30px 26px;background:linear-gradient(to top,rgba(20,20,20,0.8),transparent);color:var(--paper);font-family:var(--serif);font-style:italic;font-size:clamp(18px,1.7vw,23px);line-height:1.3}
+  @media(max-width:900px){.hero{grid-template-columns:1fr;gap:36px}.hero-photo{aspect-ratio:4/3.6;order:-1}.hero-stats{gap:28px}}
+
+  /* ---------- MARQUEE ---------- */
+  .marquee{background:var(--ink);color:var(--paper);padding:20px 0;margin-top:60px;overflow:hidden;white-space:nowrap}
+  .marquee-track{display:inline-flex;gap:0;animation:scroll 38s linear infinite;will-change:transform}
+  .marquee:hover .marquee-track{animation-play-state:paused}
+  .marquee span{font-family:var(--serif);font-style:italic;font-size:21px;padding:0 38px;position:relative}
+  .marquee span::after{content:"•";position:absolute;right:-4px;color:var(--clay);font-style:normal}
+  @keyframes scroll{to{transform:translateX(-50%)}}
+
+  /* ---------- SECTIONS ---------- */
+  section{padding:100px 0}
+  .sec-label{font-size:13px;letter-spacing:2.5px;text-transform:uppercase;color:var(--clay);font-weight:500;margin-bottom:20px}
+  h2{font-family:var(--serif);font-weight:400;font-size:clamp(32px,4.5vw,52px);line-height:1.06;letter-spacing:-1.2px;max-width:20ch;margin-bottom:24px}
+  h2 em{font-style:italic;color:var(--clay)}
+  .lead{font-size:18px;color:var(--slate);max-width:58ch;line-height:1.6}
+
+  /* pain */
+  .pain{background:rgba(20,20,20,0.025)}
+  .pain-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:52px;border-radius:6px;overflow:hidden}
+  .pcell{background:var(--paper);padding:36px 34px;transition:background .3s}
+  .pcell:hover{background:#fff}
+  .pcell p{font-family:var(--serif);font-size:20px;line-height:1.35;font-style:italic}
+  .pcell span{display:block;font-family:var(--sans);font-style:normal;font-size:14.5px;color:var(--slate);margin-top:14px;line-height:1.5}
+  @media(max-width:680px){.pain-grid{grid-template-columns:1fr}}
+
+  /* disorders (dark) */
+  .belief{background:var(--ink);color:var(--paper)}
+  .belief .sec-label{color:var(--clay)}.belief h2{color:var(--paper)}
+  .dgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(244,241,236,0.14);border:1px solid rgba(244,241,236,0.14);margin-top:48px;border-radius:6px;overflow:hidden}
+  .dcell{background:var(--ink);padding:32px 28px;transition:background .3s}
+  .dcell:hover{background:#1d1d1d}
+  .dcell .t{font-family:var(--serif);font-size:19px;line-height:1.25;margin-bottom:12px}
+  .dcell .d{color:rgba(244,241,236,0.6);font-size:14.5px;line-height:1.5}
+  @media(max-width:820px){.dgrid{grid-template-columns:1fr}}
+
+  /* method */
+  .steps{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin-top:56px}
+  .step{padding:32px;border:1px solid var(--line);border-radius:10px;transition:transform .25s,box-shadow .25s;background:var(--paper)}
+  .step:hover{transform:translateY(-4px);box-shadow:0 16px 40px -16px rgba(20,20,20,0.18)}
+  .step .num{font-family:var(--serif);font-size:14px;color:var(--clay);font-weight:500;letter-spacing:1px;margin-bottom:16px}
+  .step h3{font-family:var(--serif);font-weight:500;font-size:23px;letter-spacing:-.5px;margin-bottom:12px}
+  .step p{font-size:15.5px;color:var(--slate);line-height:1.6}
+  @media(max-width:760px){.steps{grid-template-columns:1fr;gap:22px}}
+
+  /* inline CTA */
+  .inline-cta{text-align:center;padding:80px 0}
+  .inline-cta p{font-family:var(--serif);font-size:clamp(24px,3.4vw,36px);font-style:italic;letter-spacing:-.5px;max-width:22ch;margin:0 auto 28px;line-height:1.2}
+  .inline-cta a{display:inline-block;background:var(--clay);color:var(--paper);padding:16px 34px;border-radius:100px;font-weight:500;font-size:16px;transition:transform .2s,background .2s}
+  .inline-cta a:hover{background:#b3452f;transform:translateY(-2px)}
+
+  /* results */
+  .photo-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:52px}
+  .pphoto{aspect-ratio:1;border-radius:10px;overflow:hidden;background:rgba(20,20,20,0.05)}
+  .pphoto img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+  .pphoto:hover img{transform:scale(1.05)}
+  @media(max-width:900px){.photo-grid{grid-template-columns:repeat(3,1fr)}}
+  @media(max-width:600px){.photo-grid{grid-template-columns:repeat(2,1fr);gap:12px}}
+
+  /* founder */
+  .founder{background:var(--ink);color:var(--paper)}
+  .founder .sec-label{color:var(--clay)}
+  .founder-inner{display:grid;grid-template-columns:0.85fr 1.15fr;gap:60px;align-items:center}
+  .founder-photo{aspect-ratio:4/5;border-radius:12px;overflow:hidden;border:1px solid rgba(244,241,236,0.14)}
+  .founder-photo img{width:100%;height:100%;object-fit:cover;object-position:center top}
+  .founder h2{color:var(--paper);margin-bottom:28px}
+  .founder p{color:rgba(244,241,236,0.78);font-size:17px;line-height:1.7;margin-bottom:18px;max-width:54ch}
+  .founder p.kicker{color:var(--paper);font-family:var(--serif);font-size:20px;font-style:italic}
+  @media(max-width:820px){.founder-inner{grid-template-columns:1fr;gap:38px}.founder-photo{max-width:340px}}
+
+  /* quote */
+  .quote{text-align:center;padding:120px 0}
+  .quote blockquote{font-family:var(--serif);font-style:italic;font-size:clamp(28px,4.2vw,46px);line-height:1.22;letter-spacing:-.5px;max-width:20ch;margin:0 auto}
+  .quote .qm{font-family:var(--serif);font-size:80px;color:var(--clay);line-height:.4;display:block;margin-bottom:20px}
+
+  /* who */
+  .who-sec{background:rgba(20,20,20,0.025)}
+  .who-wrap{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+  .who-wrap ul{list-style:none;margin-top:8px}
+  .who-wrap li{padding:16px 0;border-bottom:1px solid var(--line);font-size:16.5px;display:flex;gap:14px;align-items:baseline}
+  .who-wrap li::before{content:"";width:7px;height:7px;background:var(--clay);border-radius:50%;flex-shrink:0;transform:translateY(-1px)}
+  @media(max-width:760px){.who-wrap{grid-template-columns:1fr;gap:32px}}
+
+  /* faq */
+  .faq-item{border-bottom:1px solid var(--line);cursor:pointer}
+  .faq-q{padding:26px 0;display:flex;justify-content:space-between;align-items:center;gap:20px}
+  .faq-q h3{font-family:var(--serif);font-weight:500;font-size:20px;letter-spacing:-.3px}
+  .faq-q .ic{font-size:24px;color:var(--clay);transition:transform .3s;flex-shrink:0;line-height:1}
+  .faq-item.open .ic{transform:rotate(45deg)}
+  .faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease,padding .35s ease}
+  .faq-a p{font-size:16px;color:var(--slate);line-height:1.6;max-width:64ch;padding-bottom:0}
+  .faq-item.open .faq-a{max-height:240px;padding-bottom:26px}
+
+  /* final */
+  .final{background:var(--clay);color:var(--paper);text-align:center}
+  .final h2{color:var(--paper);margin:0 auto 22px;max-width:20ch}
+  .final p{color:rgba(244,241,236,0.88);font-size:18px;max-width:48ch;margin:0 auto 38px}
+  .final .btn-dark{background:var(--ink)}
+
+  /* footer */
+  footer{background:var(--ink);color:rgba(244,241,236,0.6);padding:56px 0 40px;font-size:14px}
+  .foot-top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:24px;padding-bottom:32px;border-bottom:1px solid rgba(244,241,236,0.12)}
+  .foot-brand{font-family:var(--serif);font-size:20px;color:var(--paper)}
+  .foot-brand .h{color:rgba(244,241,236,0.45)}
+  .foot-links{display:flex;gap:26px;flex-wrap:wrap}.foot-links a:hover{color:var(--paper)}
+  .foot-bottom{padding-top:28px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:13px}
+
+  /* floating book button */
+  .float-book{position:fixed;right:24px;bottom:24px;z-index:90;background:var(--ink);color:var(--paper);padding:15px 26px;border-radius:100px;font-weight:500;font-size:15px;box-shadow:0 12px 30px -8px rgba(20,20,20,0.5);transform:translateY(120px);transition:transform .4s cubic-bezier(.6,0,.2,1),background .2s;display:flex;align-items:center;gap:9px}
+  .float-book.show{transform:translateY(0)}
+  .float-book:hover{background:var(--clay)}
+  @media(max-width:600px){.float-book{right:16px;bottom:16px;padding:13px 22px;font-size:14px}}
+
+  /* QUIZ MODAL */
+  .quiz-overlay{position:fixed;inset:0;z-index:200;background:rgba(20,20,20,0.6);backdrop-filter:blur(6px);display:none;align-items:center;justify-content:center;padding:20px;opacity:0;transition:opacity .3s}
+  .quiz-overlay.open{display:flex;opacity:1}
+  .quiz{background:var(--paper);border-radius:18px;max-width:560px;width:100%;padding:44px 40px;position:relative;max-height:92vh;overflow-y:auto;transform:scale(.96);transition:transform .3s}
+  .quiz-overlay.open .quiz{transform:scale(1)}
+  .quiz-close{position:absolute;top:20px;right:22px;background:none;border:none;font-size:26px;color:var(--slate);cursor:pointer;line-height:1}
+  .quiz-close:hover{color:var(--ink)}
+  .quiz-progress{height:4px;background:var(--line);border-radius:4px;margin-bottom:32px;overflow:hidden}
+  .quiz-progress-bar{height:100%;background:var(--clay);border-radius:4px;width:0;transition:width .4s}
+  .quiz-step{display:none}.quiz-step.active{display:block;animation:fadein .4s}
+  @keyframes fadein{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  .quiz-kicker{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--clay);font-weight:500;margin-bottom:14px}
+  .quiz h3{font-family:var(--serif);font-weight:500;font-size:26px;letter-spacing:-.5px;line-height:1.15;margin-bottom:26px}
+  .quiz-opts{display:flex;flex-direction:column;gap:12px}
+  .quiz-opt{padding:17px 20px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;cursor:pointer;transition:border-color .2s,background .2s;background:var(--paper);text-align:left;font-family:var(--sans);color:var(--ink)}
+  .quiz-opt:hover{border-color:var(--clay);background:rgba(200,81,59,0.04)}
+  .quiz-result{text-align:center}
+  .quiz-result .big{font-family:var(--serif);font-size:30px;letter-spacing:-.5px;line-height:1.15;margin-bottom:18px}
+  .quiz-result .big em{font-style:italic;color:var(--clay)}
+  .quiz-result p{color:var(--slate);font-size:16.5px;line-height:1.6;margin-bottom:14px;text-align:left}
+  .quiz-result .cta{display:inline-block;background:var(--clay);color:var(--paper);padding:16px 34px;border-radius:100px;font-weight:500;font-size:16px;margin-top:18px;transition:background .2s,transform .2s}
+  .quiz-result .cta:hover{background:#b3452f;transform:translateY(-2px)}
+  .quiz-disclaimer{font-size:12.5px;color:var(--slate);margin-top:22px;line-height:1.5;font-style:italic}
+
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
+  .reveal.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="#" class="brand"><span class="mark">un<span class="s"></span></span>Unlearning<span class="h"> Health</span></a>
+    <div class="nav-links">
+      <a href="#manifesto">Manifesto</a>
+      <a href="#founder">Founder</a>
+      <a href="#disorders">What We Fix</a>
+      <a href="#method">The Method</a>
+      <a href="#results">Results</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://calendly.com/teamcoachedbyarpit/ypt90-metabolic-audit" class="nav-pill">Start Unlearning</a>
+    </div>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').style.display='flex';document.querySelector('.nav-links').style.position='absolute';document.querySelector('.nav-links').style.top='84px';document.querySelector('.nav-links').style.right='20px';document.querySelector('.nav-links').style.flexDirection='column';document.querySelector('.nav-links').style.background='var(--paper)';document.querySelector('.nav-links').style.padding='20px';document.querySelector('.nav-links').style.borderRadius='12px';document.querySelector('.nav-links').style.boxShadow='0 12px 30px -10px rgba(0,0,0,0.2)'">☰</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header>
+  <div class="wrap">
+    <div class="hero">
+      <div class="hero-left">
+        <span class="hero-strike">weight loss.</span>
+        <h1>Relearn <em>health.</em></h1>
+        <p class="hero-sub">Health was never a number on a scale. It is in your <strong>blood markers</strong>, your <strong>stamina</strong>, your <strong>energy at 4pm</strong>. We coach you to fix what actually matters, and unlearn everything the diet industry sold you.</p>
+        <div class="hero-cta">
+          <a href="https://calendly.com/teamcoachedbyarpit/ypt90-metabolic-audit" class="btn-dark">Book a free health audit <span class="arr">→</span></a>
+          <button class="btn-outline" onclick="openQuiz()">Take the 60-sec test</button>
+        </div>
+        <div class="hero-stats">
+          <div class="hstat"><div class="n" data-count="2000"><span class="num-val">0</span><span class="plus">+</span></div><div class="l">Lives relearned</div></div>
+          <div class="hstat"><div class="n" data-count="12"><span class="num-val">0</span><span class="plus">+</span></div><div class="l">Blood markers tracked</div></div>
+          <div class="hstat"><div class="n" data-count="90"><span class="num-val">0</span></div><div class="l">Days to a new normal</div></div>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/founder.png" alt="Arpit Kushwaha, founder of unlearning.health">
+        <div class="cap">"I rested my case. Then I built a better one."</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>Replaced law, chose coaching</span><span>2,000+ lives relearned</span><span>Stamina. Energy. Longevity.</span><span>Featured in GQ India</span><span>Health is not weight loss</span>
+    <span>Replaced law, chose coaching</span><span>2,000+ lives relearned</span><span>Stamina. Energy. Longevity.</span><span>Featured in GQ India</span><span>Health is not weight loss</span>
+  </div>
+</div>
+
+<!-- PAIN -->
+<section class="pain" id="manifesto">
+  <div class="wrap">
+    <div class="sec-label reveal">Sound familiar</div>
+    <h2 class="reveal">The things you have probably said to yourself this month.</h2>
+    <p class="lead reveal">Almost every person who comes to me is saying some version of these. They are not unfit. They are stuck, busy and out of answers.</p>
+    <div class="pain-grid">
+      <div class="pcell reveal"><p>"I eat reasonably well and I still keep gaining weight."</p><span>Your metabolism is responding to inputs you cannot see. We make them visible.</span></div>
+      <div class="pcell reveal"><p>"I am exhausted by the afternoon even after a full night of sleep."</p><span>Sleeping eight hours and waking up tired is a signal, not a personality trait.</span></div>
+      <div class="pcell reveal"><p>"I do not have ninety minutes a day for the gym. I have a job and a family."</p><span>Good. You do not need ninety minutes. You need the right thirty.</span></div>
+      <div class="pcell reveal"><p>"I have tried every diet. They work for three weeks then fall apart."</p><span>Diets fail busy people by design. A system survives a bad week. A diet does not.</span></div>
+      <div class="pcell reveal"><p>"My blood reports came back fine but I do not feel fine."</p><span>Normal range is not optimal range. We read what your reports actually mean.</span></div>
+      <div class="pcell reveal"><p>"I know what to do. I just cannot stay consistent with my schedule."</p><span>Consistency is not discipline. It is design. We design around your real life.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- DISORDERS -->
+<section class="belief" id="disorders">
+  <div class="wrap">
+    <div class="sec-label reveal">What is really at stake</div>
+    <h2 class="reveal">This is rarely just about weight.</h2>
+    <p class="lead reveal" style="color:rgba(244,241,236,0.72)">The weight is the visible part. Underneath it, the same accumulation quietly drives the conditions that now show up in people in their thirties and forties, years before anyone expects them.</p>
+    <div class="dgrid">
+      <div class="dcell reveal"><div class="t">Insulin resistance and prediabetes</div><div class="d">The energy crashes, the belly fat that will not move, the family history you are quietly walking into.</div></div>
+      <div class="dcell reveal"><div class="t">Fatty liver</div><div class="d">Found on a routine scan, dismissed as common, and left to progress because nobody explained it.</div></div>
+      <div class="dcell reveal"><div class="t">Thyroid and hormonal drift</div><div class="d">Hypothyroidism, PCOS, low testosterone. The fatigue, mood and weight that get blamed on age.</div></div>
+      <div class="dcell reveal"><div class="t">Blood pressure and cholesterol</div><div class="d">The first prescription in your thirties that you assumed was decades away.</div></div>
+      <div class="dcell reveal"><div class="t">Gut issues and inflammation</div><div class="d">The bloating, the bad digestion, the low grade unwellness you have learned to live with.</div></div>
+      <div class="dcell reveal"><div class="t">Burnout, poor sleep, no energy</div><div class="d">The exhaustion a holiday does not fix, because the problem is metabolic, not just mental.</div></div>
+    </div>
+    <p class="lead reveal" style="color:rgba(244,241,236,0.72);margin-top:36px">A diet does not touch any of this. A system that fixes the inputs does. That is the work.</p>
+  </div>
+</section>
+
+<!-- INLINE CTA -->
+<div class="inline-cta">
+  <div class="wrap">
+    <p class="reveal">Not sure where you stand? The 60 second test is the fastest way to find out.</p>
+    <a href="#" onclick="openQuiz();return false;" class="reveal">Take the 60-second test</a>
+  </div>
+</div>
+
+<!-- METHOD -->
+<section id="method">
+  <div class="wrap">
+    <div class="sec-label reveal">The method</div>
+    <h2 class="reveal">The Unlearning Method.</h2>
+    <p class="lead reveal">Most coaching adds. More rules, more restriction, more willpower. We do the opposite. We find what is quietly breaking you and take it out first.</p>
+    <div class="steps">
+      <div class="step reveal"><div class="num">01 — READ THE BODY, NOT THE SCALE</div><h3>We start with what your body is telling us</h3><p>Sleep, energy, digestion, stress load, and where it matters, your bloodwork. Fasting insulin, thyroid markers, lipids and how you recover tell the real story. A scale weight tells you almost nothing.</p></div>
+      <div class="step reveal"><div class="num">02 — SUBTRACTION BEFORE ADDITION</div><h3>We remove the broken inputs first</h3><p>Fat loss, energy and most lifestyle conditions start by taking out what is dysregulating you, not piling on new rules. Most people are overfed and undernourished at the same time.</p></div>
+      <div class="step reveal"><div class="num">03 — BUILT FOR YOUR REAL LIFE</div><h3>The protocol fits your actual schedule</h3><p>Indian meals, real portions, training that fits the time you genuinely have. A plan you can only follow on a perfect week is a plan that has already failed.</p></div>
+      <div class="step reveal"><div class="num">04 — SYSTEMS THAT SURVIVE A BAD WEEK</div><h3>The result has to outlast the programme</h3><p>Motivation runs out. Systems do not. We build a small set of non negotiables that hold when work explodes and you are tired, with weekly check ins and one coach who knows your case.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section id="results">
+  <div class="wrap">
+    <div class="sec-label reveal">Results</div>
+    <h2 class="reveal">Real people. <em>Real change.</em></h2>
+    <p class="lead reveal">Busy professionals who fixed the inputs and got their bodies and their energy back. Shared with their permission.</p>
+    <div class="photo-grid">
+      <div class="pphoto reveal"><img src="assets/results/client-01.jpg" alt="Client transformation" loading="lazy"></div>
+      <div class="pphoto reveal"><img src="assets/results/client-02.jpg" alt="Client transformation" loading="lazy"></div>
+      <div class="pphoto reveal"><img src="assets/results/client-03.jpg" alt="Client transformation" loading="lazy"></div>
+      <div class="pphoto reveal"><img src="assets/results/client-04.jpg" alt="Client transformation" loading="lazy"></div>
+      <div class="pphoto reveal"><img src="assets/results/client-05.jpg" alt="Client transformation" loading="lazy"></div>
+      <div class="pphoto reveal"><img src="assets/results/client-06.jpg" alt="Client transformation" loading="lazy"></div>
+      <div class="pphoto reveal"><img src="assets/results/client-07.jpg" alt="Client transformation" loading="lazy"></div>
+      <div class="pphoto reveal"><img src="assets/results/client-08.jpg" alt="Client transformation" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<!-- INLINE CTA 2 -->
+<div class="inline-cta">
+  <div class="wrap">
+    <p class="reveal">Your turn is the next one on that wall.</p>
+    <a href="https://calendly.com/teamcoachedbyarpit/ypt90-metabolic-audit" class="reveal">Book your free health audit</a>
+  </div>
+</div>
+
+<!-- FOUNDER -->
+<section class="founder" id="founder">
+  <div class="wrap founder-inner">
+    <div class="founder-photo reveal"><img src="assets/founder.png" alt="Arpit Kushwaha, founder of unlearning.health"></div>
+    <div>
+      <div class="sec-label reveal">Founder</div>
+      <h2 class="reveal">Who I am</h2>
+      <p class="reveal">I trained as a lawyer. BA LLB, the whole thing. I was good at it and I hated it.</p>
+      <p class="reveal">What actually changed my life was fixing my own body, and the part that surprised me was not the training or the food. It was realising how much of what I had believed was just wrong. Stuff I had never questioned because everyone repeats it.</p>
+      <p class="reveal">So I started coaching. Quietly at first. That turned into 2,000 odd people over the years, and the pattern was always the same. They did not lack discipline. They were drowning in bad information and blaming themselves for it. GQ India picked up the story back in 2018, which still feels strange to say.</p>
+      <p class="reveal">unlearning.health is that work, built for people who have actual jobs. No 5am cult. No starving yourself. Just figuring out what is quietly wrecking your energy and your body, and taking it out.</p>
+      <p class="kicker reveal">If you never need a coach again, I did my job.</p>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<section class="quote">
+  <div class="wrap">
+    <span class="qm reveal">"</span>
+    <blockquote class="reveal">Most people do not need more. They need to remove what is quietly breaking them.</blockquote>
+  </div>
+</section>
+
+<!-- WHO -->
+<section class="who-sec" id="who">
+  <div class="wrap who-wrap">
+    <div>
+      <div class="sec-label reveal">Who it is for</div>
+      <h2 class="reveal">Built for people who run out of hours, not intent.</h2>
+      <p class="lead reveal">If you are 30 to 50, carrying a real career and a real life, and tired of advice that assumes you have nothing else going on, this is built for you.</p>
+    </div>
+    <ul>
+      <li class="reveal">You have tried plans before and they did not survive a busy month</li>
+      <li class="reveal">Your energy, sleep or bloodwork is drifting and you want it understood, not guessed at</li>
+      <li class="reveal">You want something science led, with zero gym bro culture</li>
+      <li class="reveal">You would rather have a system than another burst of motivation</li>
+      <li class="reveal">You want one coach who actually knows your situation</li>
+    </ul>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-label reveal">Common questions</div>
+    <h2 class="reveal">The things people ask before booking.</h2>
+    <div style="margin-top:40px">
+      <div class="faq-item reveal" onclick="this.classList.toggle('open')"><div class="faq-q"><h3>I genuinely do not have time. Will this work for me?</h3><span class="ic">+</span></div><div class="faq-a"><p>That is exactly who this is built for. The whole method is designed around people with full schedules. We do not add hours to your day, we fix what is draining the hours you have.</p></div></div>
+      <div class="faq-item reveal" onclick="this.classList.toggle('open')"><div class="faq-q"><h3>Is this another diet plan?</h3><span class="ic">+</span></div><div class="faq-a"><p>No. Diets are temporary rules you eventually break. This is a system built around your life so the results hold after the ninety days, not just during them.</p></div></div>
+      <div class="faq-item reveal" onclick="this.classList.toggle('open')"><div class="faq-q"><h3>I have tried coaches before and nothing stuck. Why is this different?</h3><span class="ic">+</span></div><div class="faq-a"><p>Most coaching fails because it ignores your real constraints and leans on motivation. We start by removing what is breaking you, then build habits small enough to survive a bad week.</p></div></div>
+      <div class="faq-item reveal" onclick="this.classList.toggle('open')"><div class="faq-q"><h3>Do I need a gym?</h3><span class="ic">+</span></div><div class="faq-a"><p>No. Plenty of clients train at home with minimal equipment. The programme is built around what you actually have access to.</p></div></div>
+      <div class="faq-item reveal" onclick="this.classList.toggle('open')"><div class="faq-q"><h3>What happens on the health audit call?</h3><span class="ic">+</span></div><div class="faq-a"><p>Thirty minutes, properly. We go through what is actually happening with your health and your schedule, and I tell you straight whether this is worth your money. If it is not a fit, I will say so.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section class="final" id="start">
+  <div class="wrap">
+    <h2 class="reveal">Start with one honest conversation.</h2>
+    <p class="reveal">Thirty minutes, properly. I will look at what is actually happening with you and be straight about whether this is worth your money. Sometimes it isn't, and I will tell you.</p>
+    <a href="https://calendly.com/teamcoachedbyarpit/ypt90-metabolic-audit" class="btn-dark reveal">Book your free health audit <span class="arr">→</span></a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <a href="#" class="foot-brand">unlearning<span class="h">.health</span></a>
+      <div class="foot-links">
+        <a href="#method">The Method</a>
+        <a href="#results">Results</a>
+        <a href="#founder">Founder</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="refund.html">Refunds</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 unlearning.health</span>
+      <span>team@unlearning.health</span>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING BOOK BUTTON -->
+<a href="https://calendly.com/teamcoachedbyarpit/ypt90-metabolic-audit" class="float-book" id="floatBook">Book a free audit →</a>
+
+<!-- QUIZ MODAL -->
+<div class="quiz-overlay" id="quizOverlay">
+  <div class="quiz">
+    <button class="quiz-close" onclick="closeQuiz()">×</button>
+    <div class="quiz-progress"><div class="quiz-progress-bar" id="quizBar"></div></div>
+    <div id="quizBody"></div>
+  </div>
+</div>
+
+<script>
+// ===== sticky nav =====
+const nav=document.getElementById('nav');
+addEventListener('scroll',()=>{nav.classList.toggle('scrolled',scrollY>20)});
+
+// ===== floating book button (show after hero) =====
+const fb=document.getElementById('floatBook');
+addEventListener('scroll',()=>{fb.classList.toggle('show',scrollY>700)});
+
+// ===== reveal on scroll =====
+const io=new IntersectionObserver((es)=>{
+  es.forEach(e=>{if(e.isIntersecting){
+    const sibs=[...e.target.parentElement.querySelectorAll('.reveal')];
+    e.target.style.transitionDelay=(Math.max(0,sibs.indexOf(e.target))*55)+'ms';
+    e.target.classList.add('in');io.unobserve(e.target);
+  }});
+},{threshold:0.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+// ===== animated counters =====
+function animateCount(el){
+  const target=+el.dataset.count;
+  const valEl=el.querySelector('.num-val');
+  const dur=1400;const start=performance.now();
+  function tick(now){
+    const p=Math.min((now-start)/dur,1);
+    const eased=1-Math.pow(1-p,3);
+    valEl.textContent=Math.floor(eased*target).toLocaleString();
+    if(p<1)requestAnimationFrame(tick);else valEl.textContent=target.toLocaleString();
+  }
+  requestAnimationFrame(tick);
+}
+const countIO=new IntersectionObserver((es)=>{
+  es.forEach(e=>{if(e.isIntersecting){animateCount(e.target);countIO.unobserve(e.target)}});
+},{threshold:0.5});
+document.querySelectorAll('[data-count]').forEach(el=>countIO.observe(el));
+
+// ===== 60-SECOND TEST QUIZ =====
+const CAL="https://calendly.com/teamcoachedbyarpit/ypt90-metabolic-audit";
+const questions=[
+  {q:"How is your energy through a normal workday?",opts:["Steady all day","Crashes in the afternoon","Tired from the moment I wake up","Running on caffeine to get through"]},
+  {q:"Your weight over the last two years?",opts:["Stable and where I want it","Slowly creeping up","Up and down with every diet","Stuck no matter what I try"]},
+  {q:"How well do you sleep?",opts:["Wake up genuinely rested","Sleep enough but wake up tired","Trouble falling or staying asleep","Sleep is the first thing my schedule kills"]},
+  {q:"Your most recent blood report?",opts:["All optimal, I understand it","Told it is normal but I feel off","Some markers flagged","Have not checked in over a year"]},
+  {q:"What has stopped you before?",opts:["Plans never fit my schedule","Lost motivation after a few weeks","No one explained the why","Never really started properly"]}
+];
+let qi=0;const answers=[];
+function openQuiz(){qi=0;answers.length=0;renderQ();document.getElementById('quizOverlay').classList.add('open');document.body.style.overflow='hidden'}
+function closeQuiz(){document.getElementById('quizOverlay').classList.remove('open');document.body.style.overflow=''}
+function renderQ(){
+  document.getElementById('quizBar').style.width=((qi)/questions.length*100)+'%';
+  const q=questions[qi];
+  let html='<div class="quiz-step active"><div class="quiz-kicker">Question '+(qi+1)+' of '+questions.length+'</div><h3>'+q.q+'</h3><div class="quiz-opts">';
+  q.opts.forEach((o,i)=>{html+='<button class="quiz-opt" onclick="answer('+i+')">'+o+'</button>'});
+  html+='</div></div>';
+  document.getElementById('quizBody').innerHTML=html;
+}
+function answer(i){answers.push(i);qi++;if(qi<questions.length)renderQ();else showResult()}
+function showResult(){
+  document.getElementById('quizBar').style.width='100%';
+  const score=answers.reduce((a,b)=>a+b,0);
+  let verdict,detail;
+  if(score<=3){verdict='Your signals look <em>mostly steady.</em>';detail='Good. But "fine" and "optimal" are not the same thing, and most people who feel okay are leaving real energy and longevity on the table. A health audit will tell you exactly where you stand and whether there is anything worth tightening.'}
+  else if(score<=8){verdict='Your body is <em>sending early signals.</em>';detail='This is the most common pattern we see, and the most fixable. The fatigue, the creeping weight, the off feeling despite "normal" reports are usually the inputs nobody taught you to question. This is exactly what the method is built to reverse.'}
+  else{verdict='Several signals are <em>worth a proper look.</em>';detail='What you described, the energy crashes, the stuck weight, the flagged markers, tends to be accumulation that has been building quietly. The good news is that it responds well once the right things are removed. A health audit is the sensible first step.'}
+  document.getElementById('quizBody').innerHTML=
+    '<div class="quiz-step active quiz-result"><div class="quiz-kicker">Your result</div><div class="big">'+verdict+'</div><p>'+detail+'</p>'+
+    '<a href="'+CAL+'" class="cta">Book your free health audit →</a>'+
+    '<div class="quiz-disclaimer">This is a quick reflection tool, not a medical assessment. It does not diagnose anything. For anything clinical, the audit call and your doctor are the right place.</div></div>';
+}
+// close on overlay click
+document.getElementById('quizOverlay').addEventListener('click',e=>{if(e.target.id==='quizOverlay')closeQuiz()});
+addEventListener('keydown',e=>{if(e.key==='Escape')closeQuiz()});
+</script>
+</body>
+</html>
